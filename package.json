@@ -1,0 +1,12 @@
+{
+  "name": "@jeandresyl/design-editor",
+  "version": "1.0.0",
+  "description": "design-editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts"
+}
