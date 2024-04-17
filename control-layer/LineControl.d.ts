@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { BoxSize, Delta } from '@/app/libs/design-core';
+import { BoxSize, Delta } from '@lidojs/design-core';
 import { ChangeLineCallback } from '../types';
 interface LineControlProps {
     boxSize: BoxSize;

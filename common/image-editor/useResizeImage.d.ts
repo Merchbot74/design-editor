@@ -1,4 +1,4 @@
-import { BoxData, CursorPosition } from '@/app/libs/design-core';
+import { BoxData, CursorPosition } from '@lidojs/design-core';
 import { CornerDirection } from '../../types';
 export declare const useResizeImage: ({ getData, onResizeStart, onResize, onResizeEnd, lockAspect, }: {
     getData: () => BoxData;

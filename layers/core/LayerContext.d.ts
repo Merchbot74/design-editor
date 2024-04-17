@@ -1,4 +1,4 @@
-import { LayerId } from 'design-core';
+import { LayerId } from '@lidojs/design-core';
 import React, { FC, PropsWithChildren } from 'react';
 export declare const LayerContext: React.Context<{
     id: LayerId;

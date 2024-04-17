@@ -1,4 +1,4 @@
-import { Delta } from '@/app/libs/design-core';
+import { Delta } from '@lidojs/design-core';
 import React from 'react';
 type PopoverPlacement = 'top' | 'top-start' | 'top-end' | 'bottom' | 'bottom-start' | 'bottom-end' | 'right' | 'right-start' | 'right-end' | 'left' | 'left-start' | 'left-end';
 export interface PopoverProps {

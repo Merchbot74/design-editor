@@ -1,4 +1,4 @@
-import { ArrowType } from 'design-core';
+import { ArrowType } from '@lidojs/design-core';
 import { FC } from 'react';
 type Props = {
     position?: 'start' | 'end';

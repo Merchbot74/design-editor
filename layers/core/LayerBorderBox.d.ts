@@ -1,4 +1,4 @@
-import { BoxSize, Delta, LayerType } from 'design-core';
+import { BoxSize, Delta, LayerType } from '@lidojs/design-core';
 import React from 'react';
 interface LayerBorderBoxProps {
     boxSize: BoxSize;

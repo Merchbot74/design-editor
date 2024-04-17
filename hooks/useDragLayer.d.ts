@@ -1,4 +1,4 @@
-import { Delta, LayerId } from 'design-core';
+import { Delta, LayerId } from '@lidojs/design-core';
 import { RefObject } from 'react';
 export type DragCallbackData = {
     controlBox?: Delta;

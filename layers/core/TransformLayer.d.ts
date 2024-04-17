@@ -1,4 +1,4 @@
-import { BoxSize, Delta } from 'design-core';
+import { BoxSize, Delta } from '@lidojs/design-core';
 import React from 'react';
 interface TransformLayerProps {
     boxSize: BoxSize;

@@ -1,4 +1,4 @@
-import { GradientStyle } from 'design-core';
+import { GradientStyle } from '@lidojs/design-core';
 import React from 'react';
 import { SidebarProps } from './Sidebar';
 interface ColorSidebarProps extends SidebarProps {

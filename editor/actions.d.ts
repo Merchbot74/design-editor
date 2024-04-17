@@ -1,4 +1,4 @@
-import { BoxData, BoxSize, CursorPosition, Delta, FontData, LayerComponentProps, LayerId, PageSize, SerializedLayer, SerializedLayerTree, SerializedPage } from 'design-core';
+import { BoxData, BoxSize, CursorPosition, Delta, FontData, LayerComponentProps, LayerId, PageSize, SerializedLayer, SerializedLayerTree, SerializedPage } from '@lidojs/design-core';
 import { TextEditor } from '../common/text-editor/interfaces';
 import { CoreEditorQuery, DeepPartial, Direction, EdgeDirection, EditorState, HorizontalGuideline, LinePosition, SidebarType, VerticalGuideline } from '../types';
 export declare const ActionMethods: (state: EditorState, query: CoreEditorQuery) => {

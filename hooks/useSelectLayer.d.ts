@@ -1,4 +1,4 @@
-import { BoxData, LayerId } from 'design-core';
+import { BoxData, LayerId } from '@lidojs/design-core';
 import { RefObject } from 'react';
 export declare const useSelectLayer: ({ frameRef, pageListRef, selectionBoxRef, }: {
     frameRef: RefObject<HTMLDivElement | null>;

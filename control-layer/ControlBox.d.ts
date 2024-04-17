@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { BoxSize, Delta } from '@/app/libs/design-core';
+import { BoxSize, Delta } from '@lidojs/design-core';
 import { ResizeCallback } from '../types';
 interface ResizeBoxProps {
     boxSize: BoxSize;

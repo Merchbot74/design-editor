@@ -1,4 +1,4 @@
-import { BoxSize, Delta, ImageContentProps } from 'design-core';
+import { BoxSize, Delta, ImageContentProps } from '@lidojs/design-core';
 import { LayerComponent } from '../types';
 export interface ImageLayerProps extends ImageContentProps {
     image: {

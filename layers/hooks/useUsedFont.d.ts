@@ -1,4 +1,4 @@
-import { FontData } from 'design-core';
+import { FontData } from '@lidojs/design-core';
 export declare const useUsedFont: () => {
     usedFonts: FontData[];
 };

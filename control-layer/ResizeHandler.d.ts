@@ -1,4 +1,4 @@
-import { BoxSize } from '@/app/libs/design-core';
+import { BoxSize } from '@lidojs/design-core';
 import { FC } from 'react';
 import { Direction, EdgeDirection } from '../types';
 export declare const HANDLER_SIZE = 16;

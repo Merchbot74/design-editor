@@ -1,4 +1,4 @@
-import { LayerComponentProps } from 'design-core';
+import { LayerComponentProps } from '@lidojs/design-core';
 import React, { FC, HTMLProps } from 'react';
 import { Layer } from '../../types';
 type Props = HTMLProps<HTMLDivElement> & {

@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { FontData } from 'design-core';
+import { FontData } from '@lidojs/design-core';
 import { EditorActions, EditorQuery, EditorState, GetFontQuery } from '../types';
 export type EditorConfig = {
     assetPath: string;

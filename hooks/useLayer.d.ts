@@ -1,4 +1,4 @@
-import { LayerComponentProps } from 'design-core';
+import { LayerComponentProps } from '@lidojs/design-core';
 import { Layer, LayerActions } from '../types';
 export declare const useLayer: <P extends LayerComponentProps, C>(collector?: (layer: Layer<P>) => C) => Omit<C & {
     actions: import("../types").EditorActions;

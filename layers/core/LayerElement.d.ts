@@ -1,4 +1,4 @@
-import { LayerId } from 'design-core';
+import { LayerId } from '@lidojs/design-core';
 import { FC, PropsWithChildren } from 'react';
 type LayerElementProps = {
     id: LayerId;
