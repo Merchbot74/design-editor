@@ -2,10 +2,10 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const S = require("react"),
   U = require("react/jsx-runtime"),
-  ee = require("@lidojs/design-core"),
-  ae = require("@lidojs/design-utils"),
+  ee = require("design-core"),
+  ae = require("design-utils"),
   Yr = require("react-dom"),
-  Gr = require("@lidojs/color-picker");
+  Gr = require("color-picker");
 function Gm(n) {
   const e = Object.create(null, { [Symbol.toStringTag]: { value: "Module" } });
   if (n) {
