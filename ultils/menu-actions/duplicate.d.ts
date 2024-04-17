@@ -1,4 +1,4 @@
-import { LayerId } from '@/app/libs/design-core';
+import { LayerId } from 'design-core';
 import { EditorActions, EditorState } from '../../types';
 export declare const duplicate: (state: EditorState, { pageIndex, layerIds, actions, }: {
     pageIndex: number;

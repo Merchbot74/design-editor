@@ -1,4 +1,4 @@
-import { FontData } from '@/app/libs/design-core';
+import { FontData } from 'design-core';
 import React from 'react';
 import { SidebarProps } from './Sidebar';
 interface FontSidebarProps extends SidebarProps {

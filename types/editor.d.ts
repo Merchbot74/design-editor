@@ -1,4 +1,4 @@
-import { BoxData, BoxSize, CursorPosition, Delta, FontData, LayerId } from '@/app/libs/design-core';
+import { BoxData, BoxSize, CursorPosition, Delta, FontData, LayerId } from 'design-core';
 import { TextEditor } from '../common/text-editor/interfaces';
 import { ActionMethods } from '../editor/actions';
 import { QueryMethods } from '../editor/query';

@@ -1,4 +1,4 @@
-import { LayerComponentProps } from '@/app/libs/design-core';
+import { LayerComponentProps } from 'design-core';
 import { PropsWithChildren } from 'react';
 import { LayerComponent } from '../types';
 export interface GroupLayerProps extends LayerComponentProps {

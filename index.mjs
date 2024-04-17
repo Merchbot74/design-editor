@@ -5,7 +5,7 @@ import { jsx as q, jsxs as Pc } from "react/jsx-runtime";
 import { FrameContent as i8, ImageContent as o8, LineContent as s8, RootContent as a8, ShapeContent as l8, SvgContent as c8, TextContent as u8, VideoContent as d8, getTransformStyle as ut, visualCorners as oi, isPointInsideBox as Jl, boundingRect as hr, rectangleInsideAnother as M1, getControlBoxSizeFromLayers as oa, isIntersection as g0, distanceBetweenPoints as Hs, horizontalAndVerticalChange as f8, angleBetweenPoints as h8, useResize as p8, positionOfObjectInsideAnother as R1, scalePath as g8, useEventCallback as m8, getTextEffectStyle as m0, useResizeLayer as v8, useDragLine as y8, useRotateLayer as w8, autoCorrectDegree as b8, getImageSize as x8, getVideoSize as S8, getVirtualDomHeight as D1, GlobalStyle as I1, isElementInViewport as v0, getPositionWhenLayerCenter as ao, getGradientBackground as Ql, getPositionChangesBetweenTwoCorners as y0 } from "@/app/libs/design-core";
 import { modifiers as Hl, normalizeKeyName as Bt, useLinkedRef as Pi, getPosition as Wt, useForwardedRef as _c, mergeWithoutArray as cr, isMouseEvent as w0, isTouchEvent as b0, Color as Nt, hex2rgbString as pf } from "@/app/libs/design-utils";
 import A1, { unstable_batchedUpdates as zs, createPortal as L1 } from "react-dom";
-import { ColorPicker as ec, ColorIcon as qs } from "@/app/libs/color-picker";
+import { ColorPicker as ec, ColorIcon as qs } from "color-picker";
 const di = Ui({}), je = (n) => {
   const e = It(di), { actions: t, getState: r, query: i } = e;
   return {

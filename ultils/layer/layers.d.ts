@@ -1,4 +1,4 @@
-import { LayerComponentProps, LayerId, SerializedLayer, SerializedLayers } from '@/app/libs/design-core';
+import { LayerComponentProps, LayerId, SerializedLayer, SerializedLayers } from 'design-core';
 import { FrameLayerProps, LineLayerProps, GroupLayerProps, ImageLayerProps, RootLayerProps, ShapeLayerProps, SvgLayerProps, TextLayerProps, VideoLayerProps } from '../../layers';
 import { Layer, LayerData, Layers } from '../../types';
 export declare const getRandomId: () => LayerId;
@@ -7,10 +7,10 @@ export declare const serializeLayers: (layers: Layers, rootTreeId: LayerId) => S
 export declare const isRootLayer: <P extends LayerComponentProps>(layer: Layer<RootLayerProps> | Layer<P>) => layer is Layer<RootLayerProps>;
 export declare const isMainLayer: <P extends LayerComponentProps>(layer: Layer<P>) => boolean;
 export declare const isGroupLayer: <P extends LayerComponentProps>(layer: Layer<GroupLayerProps> | Layer<P>) => layer is Layer<GroupLayerProps>;
-export declare const isTextLayer: <P extends LayerComponentProps>(layer: Layer<import("@/app/libs/design-core").TextContentProps> | Layer<P>) => layer is Layer<import("@/app/libs/design-core").TextContentProps>;
+export declare const isTextLayer: <P extends LayerComponentProps>(layer: Layer<import("design-core").TextContentProps> | Layer<P>) => layer is Layer<import("design-core").TextContentProps>;
 export declare const isFrameLayer: <P extends LayerComponentProps>(layer: Layer<FrameLayerProps> | Layer<P>) => layer is Layer<FrameLayerProps>;
-export declare const isSvgLayer: <P extends LayerComponentProps>(layer: Layer<import("@/app/libs/design-core").SvgContentProps> | Layer<P>) => layer is Layer<import("@/app/libs/design-core").SvgContentProps>;
+export declare const isSvgLayer: <P extends LayerComponentProps>(layer: Layer<import("design-core").SvgContentProps> | Layer<P>) => layer is Layer<import("design-core").SvgContentProps>;
 export declare const isImageLayer: <P extends LayerComponentProps>(layer: Layer<ImageLayerProps> | Layer<P>) => layer is Layer<ImageLayerProps>;
-export declare const isShapeLayer: <P extends LayerComponentProps>(layer: Layer<import("@/app/libs/design-core").ShapeContentProps> | Layer<P>) => layer is Layer<import("@/app/libs/design-core").ShapeContentProps>;
-export declare const isLineLayer: <P extends LayerComponentProps>(layer: Layer<import("@/app/libs/design-core").LineContentProps> | Layer<P>) => layer is Layer<import("@/app/libs/design-core").LineContentProps>;
-export declare const isVideoLayer: <P extends LayerComponentProps>(layer: Layer<import("@/app/libs/design-core").VideoContentProps> | Layer<P>) => layer is Layer<import("@/app/libs/design-core").VideoContentProps>;
+export declare const isShapeLayer: <P extends LayerComponentProps>(layer: Layer<import("design-core").ShapeContentProps> | Layer<P>) => layer is Layer<import("design-core").ShapeContentProps>;
+export declare const isLineLayer: <P extends LayerComponentProps>(layer: Layer<import("design-core").LineContentProps> | Layer<P>) => layer is Layer<import("design-core").LineContentProps>;
+export declare const isVideoLayer: <P extends LayerComponentProps>(layer: Layer<import("design-core").VideoContentProps> | Layer<P>) => layer is Layer<import("design-core").VideoContentProps>;

@@ -1,4 +1,4 @@
-import { LineContentProps } from '@/app/libs/design-core';
+import { LineContentProps } from 'design-core';
 import { LayerComponent } from '../types';
 export type LineLayerProps = LineContentProps;
 declare const LineLayer: LayerComponent<LineLayerProps>;

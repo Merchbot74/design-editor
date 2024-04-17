@@ -1,4 +1,4 @@
-import { LayerComponentProps } from '@/app/libs/design-core';
+import { LayerComponentProps } from 'design-core';
 import { FC } from 'react';
 import { Layer } from '../../../types';
 interface ReverseTransformLayerProps {

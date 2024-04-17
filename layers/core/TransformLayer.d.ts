@@ -1,4 +1,4 @@
-import { BoxSize, Delta } from '@/app/libs/design-core';
+import { BoxSize, Delta } from 'design-core';
 import React from 'react';
 interface TransformLayerProps {
     boxSize: BoxSize;

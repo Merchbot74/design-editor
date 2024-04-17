@@ -1,6 +1,6 @@
 import { DraggableSyntheticListeners } from '@dnd-kit/core';
 import { CSSObject } from '@emotion/react';
-import { LayerComponentProps } from '@/app/libs/design-core';
+import { LayerComponentProps } from 'design-core';
 import React, { HTMLProps } from 'react';
 import { Layer } from '../../types';
 type Props = HTMLProps<HTMLDivElement> & {

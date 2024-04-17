@@ -1,4 +1,4 @@
-import { ArrowType } from '@/app/libs/design-core';
+import { ArrowType } from 'design-core';
 import { FC } from 'react';
 type Props = {
     position?: 'start' | 'end';

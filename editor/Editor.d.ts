@@ -1,4 +1,4 @@
-import { FontData } from '@/app/libs/design-core';
+import { FontData } from 'design-core';
 import { FC, PropsWithChildren } from 'react';
 import { GetFontQuery } from '../types';
 import { EditorConfig } from './EditorContext';

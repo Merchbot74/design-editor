@@ -1,4 +1,4 @@
-import { BoxSize, Delta, RootContentProps } from '@/app/libs/design-core';
+import { BoxSize, Delta, RootContentProps } from 'design-core';
 import { PropsWithChildren } from 'react';
 import { LayerComponent } from '../types';
 export interface RootLayerProps extends Omit<RootContentProps, 'image'> {

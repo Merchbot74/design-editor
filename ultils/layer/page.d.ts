@@ -1,3 +1,3 @@
-import { SerializedPage } from '@/app/libs/design-core';
+import { SerializedPage } from 'design-core';
 import { Page } from '../../types';
 export declare const serialize: (pages: Page[]) => SerializedPage[];

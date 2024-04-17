@@ -1,4 +1,4 @@
-import { BoxData, LayerId } from '@/app/libs/design-core';
+import { BoxData, LayerId } from 'design-core';
 import React from 'react';
 interface SelectionBoxProps {
     selectedLayers?: Record<LayerId, BoxData>;

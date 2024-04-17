@@ -1,4 +1,4 @@
-import { GradientStyle } from '@/app/libs/design-core';
+import { GradientStyle } from 'design-core';
 import { FC, PropsWithChildren } from 'react';
 interface ColorSettingsProps {
     colors: string[];

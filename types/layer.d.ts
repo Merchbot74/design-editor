@@ -1,4 +1,4 @@
-import { BoxSize, Delta, LayerComponentProps, LayerId, LayerType } from '@/app/libs/design-core';
+import { BoxSize, Delta, LayerComponentProps, LayerId, LayerType } from 'design-core';
 import { FunctionComponent, ReactElement } from 'react';
 import { TextEditor } from '../common/text-editor/interfaces';
 import { DeepPartial } from './common';

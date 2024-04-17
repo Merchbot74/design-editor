@@ -1,4 +1,4 @@
-import { SerializedPage } from '@/app/libs/design-core';
+import { SerializedPage } from 'design-core';
 import { FC } from 'react';
 interface DesignFrameProps {
     data: SerializedPage[];
