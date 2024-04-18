@@ -22447,7 +22447,6 @@ const xt = ({
               (ye.boxSize.width = p.height * Pe),
               (ye.position.x = (ye.boxSize.width - p.width) / -2),
               (ye.position.y = 0)),
-            console.log(ye, m),
             d.setProp(h, "ROOT", { video: ye, image: null }),
             d.history.merge().deleteLayer(h, m.id);
         }
